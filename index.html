@@ -1,79 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aienghaitham Portfolio</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f5f5f5;
-            color: #f33f;
-        }
-        header {
-            background: #000;
-            padding: 20px;
-            text-align: center;
-            color: #fff;
-        }
-        h1 {
-            margin: 0;
-            font-size: 32px;
-        }
-        .section {
-            padding: 40px 20px;
-            text-align: center;
-        }
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            padding: 0 20px 40px;
-        }
-        .project-card {
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .project-card img {
-            width: 100%;
-            border-radius: 10px;
-            margin-bottom: 15px;
-        }
-    </style>
+    <title>الوتد الناقل - الرئيسية</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <header>
-        <h1>Aienghaitham — Graphic Designer</h1>
-        <p>Branding • Logos • Visual Identity</p>
+        <h1>الوتد الناقل</h1>
+        <nav>
+            <a href="index.html">الرئيسية</a>
+            <a href="services.html">خدمات الشحن</a>
+            <a href="tracking.html">تتبع الشحنة</a>
+            <a href="contact.html">تواصل معنا</a>
+        </nav>
     </header>
 
-    <div class="section">
-        <h2>About Me</h2>
-        <p>Hi, I'm Haitham. I create professional logos and branding designs.</p>
-    </div>
+    <!-- بنر رئيسي -->
+    <section class="banner-section">
+        <img src="images/banner.jpg" alt="بنر رئيسي" class="banner">
+    </section>
 
-    <div class="section">
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="project-card">
-                <img src="https://via.placeholder.com/400x250" />
-                <h3>Project Title</h3>
-                <p>Short description of the project.</p>
-            </div>
-            <div class="project-card">
-                <img src="https://via.placeholder.com/400x250" />
-                <h3>Project Title</h3>
-                <p>Short description of the project.</p>
-            </div>
+    <!-- قسم Hero -->
+    <section class="hero">
+        <h2>خدمات شحن سريعة وآمنة</h2>
+        <p>نحن نقدم أفضل خدمات الشحن المحلية والدولية.</p>
+<div class="feature">
+    <img src="images/banner.jpg" alt="توصيل سريع">
+    <h3>توصيل سريع</h3>
+</div>
+
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section class="features">
+        <div class="feature">
+            <img src="images/service1.jpg" alt="توصيل سريع">
+            <h3>توصيل سريع</h3>
+            <p>نوصل شحناتك في أسرع وقت ممكن.</p>
         </div>
-    </div>
+        <div class="feature">
+            <img src="images/service2.jpg" alt="تتبع مباشر">
+            <h3>تتبع مباشر</h3>
+            <p>يمكنك تتبع شحنتك بسهولة عبر موقعنا.</p>
+        </div>
+        <div class="feature">
+            <img src="images/service3.jpg" alt="خدمة عملاء">
+            <h3>خدمة عملاء 24/7</h3>
+            <p>نحن دائمًا هنا للرد على استفساراتك.</p>
+        </div>
+    </section>
 
+    <!-- Banner ثانوي -->
+    <section class="promo-banner">
+        <img src="images/promo-banner.jpg" alt="عرض خاص" class="banner">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 شركة الشحن. جميع الحقوق محفوظة.</p>
+    </footer>
 </body>
 </html>
-
